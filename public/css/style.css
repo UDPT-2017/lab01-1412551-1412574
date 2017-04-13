@@ -16,7 +16,45 @@ body {
   background-color: black;
   color: white;
 }
+.container{
+    margin-bottom: 60px;
+}
+/* begin set album*/
+.album-cover{
+	height: 300px;
+	margin-bottom: 80px;
+	border: 4px solid gray;
+}
+.album-cover img{
+	width: 100%;
+    margin-bottom: 5px;   
+	height: 100%;
+}
+/*End set infomation author*/
+.col-md-6 col-xs-12{
+    visibility: visible;
+}
 
+.album-cover_author{
+    height: 500px;
+    margin-bottom: 80px;
+    border: 4px solid gray;
+}
+.album-cover_author img{
+    width: 100%;
+    margin-bottom: 5px;   
+    height: 100%;
+}
+.author{
+    font-size: 150%
+}
+.ma_sv{
+    font-size: 150%
+}
+
+
+
+/* End set album*/
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -38,6 +76,12 @@ code {
   font-size: 80%;
 }
 
+.infor{
+    text-align: right;
+}
+article {
+    display: block; 
+}
 
 nav.sidebar.navbar {
     border-radius: 0px;
@@ -127,6 +171,8 @@ nav:hover .forAnimate{
         margin-left: 40px;
         float: right;
     }
+/**/
+
 
     /*lets nav bar to be showed on mouseover*/
     nav.sidebar:hover + .container-main{
