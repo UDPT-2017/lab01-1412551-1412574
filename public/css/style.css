@@ -12,7 +12,7 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 150px;
   background-color: black;
   color: white;
 }
@@ -30,38 +30,57 @@ body {
     margin-bottom: 5px;   
 	height: 100%;
 }
-/*End set infomation author*/
-.col-md-6 col-xs-12{
-    visibility: visible;
+
+div.gallery {
+    border: 1px solid #ccc;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
-.album-cover_author{
-    height: 500px;
-    margin-bottom: 80px;
-    border: 4px solid gray;
-}
-.album-cover_author img{
-    width: 100%;
-    margin-bottom: 5px;   
-    height: 100%;
-}
-.author{
-    font-size: 150%
-}
-.ma_sv{
-    font-size: 150%
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
+ div.gallery img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
 
-
+.imgcreator{
+   border: 1px solid #ccc;
+   margin-bottom: 50px;
+   padding: 20px;
+}
 /* End set album*/
+/*Begin set about*/
+.member {
+    height: 450px;
+    margin-bottom: 80px;
+    border: 2px solid gray;
+  }
+
+.member img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.desc {
+      color: black;
+      font-size: 20px;
+      line-height: 1;
+      padding: 10px;
+      text-align: center;
+  }
+
+/* End set about*/
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 10px 15px 0;
+  padding: 10px 50px 50px;
 }
 .container .text-muted {
   margin: 20px 0;
