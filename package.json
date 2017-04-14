@@ -4,6 +4,7 @@
   "description": "**Name of your app** là một bài tập 1 tại môn UDPT.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/UDPT-2017/lab01-1412551-1412574#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
