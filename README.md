@@ -29,7 +29,10 @@ Yêu cầu **bắt buộc**
 * [x] Vào trang about sẽ thấy thông tin nhóm: tên nhóm, danh sách thành viên (mã sinh viên, họ tên, ảnh đại diện) và bản đồ google map hiển thị địa chỉ liên lạc của nhóm. (**1412574**)
 * [x] Vào trang blog sẽ thấy danh sách các bài viết, mỗi bài viết bao gồm: nội dung rút gọn, ảnh đại diện, người đăng và số view. (**1412574**)
 * [x] Nhấn vào mỗi bài viết sẽ thấy chi tiết bài viết cùng đầy đủ nội dung của bài viết. (**1412574**)
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf1fa0dd28bb5ff68f566015fd3b5b52963ba9f9
 
 Yêu cầu **không bắt buộc**:
 * [ ] Cho phép người dùng đăng nhập, đăng xuất, đăng ký thông tin tài khoản. (**MSSV**)
