@@ -190,7 +190,4 @@ app.get('/blog2', function (req, res) {
                       });
 });
 
-var port = 8080;
-app.listen(port, function () {
-  console.log('Example app listening on port' + port + '!');
-});
+app.listen(process.env.PORT || 3000);
