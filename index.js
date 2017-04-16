@@ -190,4 +190,11 @@ app.get('/blog2', function (req, res) {
                       });
 });
 
+
 app.listen(process.env.PORT || 3000);
+=======
+//
+app.use(express.static('public'));
+app.use('/components', express.static('bower_components'))
+
+
